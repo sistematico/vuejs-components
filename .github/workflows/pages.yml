@@ -38,7 +38,7 @@ jobs:
         run: pnpm install
 
       - name: Run build
-        run: pnpm run gh
+        run: pnpm run gh-pages
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
