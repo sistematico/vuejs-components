@@ -10,8 +10,12 @@
     "gh-pages": "vue-tsc --noEmit && vite build --base=/vuejs-components/"
   },
   "dependencies": {
+    "@vime/core": "^5.3.3",
+    "@vime/vue-next": "^5.3.3",
+    "highlight.js": "^11.6.0",
     "vue": "^3.2.37",
-    "vue-router": "4"
+    "vue-router": "4",
+    "vue3-highlightjs": "^1.0.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.1.0",
